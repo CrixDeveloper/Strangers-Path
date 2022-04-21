@@ -15,11 +15,11 @@ C:/Programacion/3. Proyectos con motores Unity/Proyectos Personales/Testing FPSH
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52213
+60455
 Successfully changed project path to: C:/Programacion/3. Proyectos con motores Unity/Proyectos Personales/Testing FPSHorrorKitEngine
 C:/Programacion/3. Proyectos con motores Unity/Proyectos Personales/Testing FPSHorrorKitEngine
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 607.15 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 132.97 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -35,42 +35,537 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56392
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005857 seconds.
+Registered in 0.005376 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 140.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 131.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.321 seconds
+- Completed reload, in  1.254 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1321ms)
-		BeginReloadAssembly (131ms)
+	ReloadAssembly (1255ms)
+		BeginReloadAssembly (120ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1023ms)
-			LoadAssemblies (125ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (977ms)
+			LoadAssemblies (114ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (326ms)
+			SetupTypeCache (315ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (419ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (386ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (141ms)
-				BeforeProcessingInitializeOnLoad (34ms)
-				ProcessInitializeOnLoadAttributes (168ms)
-				ProcessInitializeOnLoadMethodAttributes (66ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (132ms)
+				BeforeProcessingInitializeOnLoad (32ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.318345 seconds.
+Registered in 0.012559 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 124.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.329 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2331ms)
+		BeginReloadAssembly (274ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1927ms)
+			LoadAssemblies (191ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (619ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (791ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (125ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (477ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2214 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.9 MB.
+System memory in use after: 103.0 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2647.
+Total: 5.467900 ms (FindLiveObjects: 0.464300 ms CreateObjectMapping: 0.134700 ms MarkObjects: 4.736500 ms  DeleteObjects: 0.130100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(9e27307c205b90344a075acda8536a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(9e27307c205b90344a075acda8536a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622509802ed89e4af4fa849117919acb') in 0.031738 seconds 
+  Import took 0.037902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.575447 seconds.
+  path: Assets/2. Scripts
+  artifactKey: Guid(e584b8a77ef22dd42b9fdfe00aaa49b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2. Scripts using Guid(e584b8a77ef22dd42b9fdfe00aaa49b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6430f97d38de2b1086c278adf97dbe78') in 0.024393 seconds 
+  Import took 0.034751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.527595 seconds.
+  path: Assets/1. Scenes
+  artifactKey: Guid(9e27307c205b90344a075acda8536a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1. Scenes using Guid(9e27307c205b90344a075acda8536a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f158102cb9a9c5501c00071334711e2a') in 0.024881 seconds 
+  Import took 0.032407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.980504 seconds.
+  path: Assets/3. Prefabs
+  artifactKey: Guid(10977c9824ce27c40872b223d4327ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3. Prefabs using Guid(10977c9824ce27c40872b223d4327ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7215440485aa97c76a9d7e97ff309a') in 0.033476 seconds 
+  Import took 0.042928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.539479 seconds.
+  path: Assets/4. Materials & Textures
+  artifactKey: Guid(95684da0d85eddd4f8fc18acde0e860f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4. Materials & Textures using Guid(95684da0d85eddd4f8fc18acde0e860f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbadec084b76a38c8af3d0f4ba9a1e94') in 0.022907 seconds 
+  Import took 0.030410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.997680 seconds.
+  path: Assets/5. Animations
+  artifactKey: Guid(e1b98c6f5102e8d40b8853e9ebecb430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5. Animations using Guid(e1b98c6f5102e8d40b8853e9ebecb430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5407d83651276d25bdd9f28229f5cc1') in 0.018887 seconds 
+  Import took 0.025898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.431496 seconds.
+  path: Assets/6. Audio Sources
+  artifactKey: Guid(bc5b27e9fe021c840a2fe07dfadbc23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/6. Audio Sources using Guid(bc5b27e9fe021c840a2fe07dfadbc23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd630e128fa1b92c0ac7c105396f0a5c') in 0.014630 seconds 
+  Import took 0.021297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.946329 seconds.
+  path: Assets/7. Images & Sprites
+  artifactKey: Guid(f95bb65b405e74943b5de2ed4ca1ff7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/7. Images & Sprites using Guid(f95bb65b405e74943b5de2ed4ca1ff7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbad94d367ff6f59293726a6d798de6') in 0.023526 seconds 
+  Import took 0.032982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.248660 seconds.
+  path: Assets/8. External Imports
+  artifactKey: Guid(20e506934969b7940948485bb6156adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports using Guid(20e506934969b7940948485bb6156adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9800569a7e2709e5bb1eaa83b92616a') in 0.020329 seconds 
+  Import took 0.027891 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013371 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.091 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2092ms)
+		BeginReloadAssembly (236ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (1703ms)
+			LoadAssemblies (211ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (616ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (624ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (150ms)
+				ProcessInitializeOnLoadAttributes (427ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2170 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.3 MB.
+System memory in use after: 99.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2649.
+Total: 5.965700 ms (FindLiveObjects: 0.361100 ms CreateObjectMapping: 0.123100 ms MarkObjects: 5.439000 ms  DeleteObjects: 0.039600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 196.780168 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets
+  artifactKey: Guid(5cd163d546126c949b3d63cc8012cc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets using Guid(5cd163d546126c949b3d63cc8012cc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3f185733c90613f9bbddcbda0bd8ea') in 0.028881 seconds 
+  Import took 0.037723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.811222 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/AddressableAssetsData
+  artifactKey: Guid(26dbd0e8f0e9281428f5b6ab80b50a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/AddressableAssetsData using Guid(26dbd0e8f0e9281428f5b6ab80b50a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf3769c1f855e82865189f4d8845c88') in 0.018174 seconds 
+  Import took 0.024101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.156920 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content
+  artifactKey: Guid(47375fb7f08a7f14598933a120e7a589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content using Guid(47375fb7f08a7f14598933a120e7a589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98261949e4e99b3dc49a57c5d19325ce') in 0.028851 seconds 
+  Import took 0.037523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.939370 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Scriptables
+  artifactKey: Guid(a52e127f97edc7e4b9df76a795e4aace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Scriptables using Guid(a52e127f97edc7e4b9df76a795e4aace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f155f0ea9fca65cb148b927762fd957') in 0.058039 seconds 
+  Import took 0.098867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.938032 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/HFPS 1.6.3 Documentation.pdf
+  artifactKey: Guid(68c48b7e8f05039479ed1de2e7e29e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/HFPS 1.6.3 Documentation.pdf using Guid(68c48b7e8f05039479ed1de2e7e29e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd49d0cb83c53139b283be3de1e1b8d4a') in 0.120163 seconds 
+  Import took 0.128215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.086609 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/AddressableAssetsData/AddressableAssetSettings.asset
+  artifactKey: Guid(ca627a99819b7cf43ae0ce0f33364a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/AddressableAssetsData/AddressableAssetSettings.asset using Guid(ca627a99819b7cf43ae0ce0f33364a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ed6257627320ff513f37c124182d26') in 0.062867 seconds 
+  Import took 0.070199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/AddressableAssetsData/DefaultObject.asset
+  artifactKey: Guid(879dc59d21f31734c95279731f769bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/AddressableAssetsData/DefaultObject.asset using Guid(879dc59d21f31734c95279731f769bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49dd62caa328f5d7990fbf94f1ab913') in 0.022855 seconds 
+  Import took 0.032046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.760787 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/AddressableAssetsData/AssetGroups
+  artifactKey: Guid(9b9a1684c222aa84e8d2c441995383f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/AddressableAssetsData/AssetGroups using Guid(9b9a1684c222aa84e8d2c441995383f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0d8cb722cce107b01e38f04d94815a') in 0.030357 seconds 
+  Import took 0.040413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.435623 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/AddressableAssetsData/AssetGroupTemplates
+  artifactKey: Guid(5b36b2525ffc9214ebf09614fdbd1b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/AddressableAssetsData/AssetGroupTemplates using Guid(5b36b2525ffc9214ebf09614fdbd1b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a852b506834a6cb1f0b03a64eef5c4b0') in 0.022108 seconds 
+  Import took 0.028648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.457433 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/AddressableAssetsData/DataBuilders
+  artifactKey: Guid(12eab4b71509c014988443b4cf63965c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/AddressableAssetsData/DataBuilders using Guid(12eab4b71509c014988443b4cf63965c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26cba0d88bdc9ad096531e2dc35c5e9') in 0.021423 seconds 
+  Import took 0.027383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.465461 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/AddressableAssetsData/Windows
+  artifactKey: Guid(cbda0e868271d894f90c25efc956245f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/AddressableAssetsData/Windows using Guid(cbda0e868271d894f90c25efc956245f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881a2e5536acc90a9c3d206303452f5b') in 0.031868 seconds 
+  Import took 0.040152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.099824 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes
+  artifactKey: Guid(10bf5d5b23d47a248922263b518f1476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes using Guid(10bf5d5b23d47a248922263b518f1476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3d699cf2a8c4833ff978dd5e47f001') in 0.016232 seconds 
+  Import took 0.024203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.971030 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/MainMenu.unity
+  artifactKey: Guid(9aa959960fff2014d9064643094534f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/MainMenu.unity using Guid(9aa959960fff2014d9064643094534f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c7f9875fde731c49cc2c8814a8d872') in 0.021818 seconds 
+  Import took 0.037487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1017.297339 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes
+  artifactKey: Guid(16561ce3b6fc8104884d07b2e818acfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes using Guid(16561ce3b6fc8104884d07b2e818acfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91218b82a97a8fe26774fbf8a60ea6ac') in 0.029777 seconds 
+  Import took 0.058417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.090304 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase
+  artifactKey: Guid(49503388d1cf7304bb82b36b3d712931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase using Guid(49503388d1cf7304bb82b36b3d712931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed33043067c2053b1a168174ccff470') in 0.026683 seconds 
+  Import took 0.048192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042791 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/LightingData.asset
+  artifactKey: Guid(295c0fc9f8bf8584fb0b9f9e05b6bb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/LightingData.asset using Guid(295c0fc9f8bf8584fb0b9f9e05b6bb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdba80b003e201439089e483efd55e2d') in 0.017485 seconds 
+  Import took 0.023641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-4_comp_dir.png
+  artifactKey: Guid(3581e93b1eb54cb4fbfc4cf4c00d50a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-4_comp_dir.png using Guid(3581e93b1eb54cb4fbfc4cf4c00d50a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6ca3bd17c5fe9a60ba60b4be97ed04') in 0.450790 seconds 
+  Import took 0.457501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000559 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/ReflectionProbe-0.exr
+  artifactKey: Guid(a62ff5efd1da7144685aeede10bf2f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/ReflectionProbe-0.exr using Guid(a62ff5efd1da7144685aeede10bf2f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec323c37ec74d537a017f057900c67b') in 0.421023 seconds 
+  Import took 0.442278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-2_comp_dir.png
+  artifactKey: Guid(abdf8ecb08cd2f74c887e471fd2adb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-2_comp_dir.png using Guid(abdf8ecb08cd2f74c887e471fd2adb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2988bad583c61cedac34e22f9a9a20ac') in 0.041202 seconds 
+  Import took 0.083362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-2_comp_light.exr
+  artifactKey: Guid(dff7f6b185a08aa4ca23b0113cf4bdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-2_comp_light.exr using Guid(dff7f6b185a08aa4ca23b0113cf4bdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d8d54bfb1f7e69d72688f69db5a8bc') in 0.081330 seconds 
+  Import took 0.090912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000564 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-3_comp_dir.png
+  artifactKey: Guid(aa50d64c372c1de47a2dd4f74f215a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-3_comp_dir.png using Guid(aa50d64c372c1de47a2dd4f74f215a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5de18066c40aac51eb93af2a278b21') in 0.050559 seconds 
+  Import took 0.060787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000749 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-0_comp_dir.png
+  artifactKey: Guid(b5f51bb86d797a14b9d3965f6d410234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-0_comp_dir.png using Guid(b5f51bb86d797a14b9d3965f6d410234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75c1b1dffa791e3bf221a319cef6677') in 0.053674 seconds 
+  Import took 0.071308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001052 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-4_comp_light.exr
+  artifactKey: Guid(88e6fe287a3f7dd49981915f790d900c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-4_comp_light.exr using Guid(88e6fe287a3f7dd49981915f790d900c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17c757586e938eb1223d195c293f33e') in 0.053330 seconds 
+  Import took 0.072189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000944 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/OcclusionCullingData.asset
+  artifactKey: Guid(cd74316d5489c9945889247981ecbfa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/OcclusionCullingData.asset using Guid(cd74316d5489c9945889247981ecbfa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3497997fc877950e76d33fa46c54298f') in 0.028351 seconds 
+  Import took 0.038812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000884 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-3_comp_light.exr
+  artifactKey: Guid(03c6b544e4281994a8f834bfb9685032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-3_comp_light.exr using Guid(03c6b544e4281994a8f834bfb9685032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2b0190104db00f434178d3f94ea228') in 0.039241 seconds 
+  Import took 0.048098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000612 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-1_comp_dir.png
+  artifactKey: Guid(96b81836f9530954ea54c2c5dc034f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-1_comp_dir.png using Guid(96b81836f9530954ea54c2c5dc034f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7787729d5484881095392ba8f14308') in 0.038934 seconds 
+  Import took 0.056632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-5_comp_light.exr
+  artifactKey: Guid(7642bac18c2dfec478f5d8f43cedadbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-5_comp_light.exr using Guid(7642bac18c2dfec478f5d8f43cedadbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc41f6f1ce85199f2e309bb1308b8542') in 0.039354 seconds 
+  Import took 0.047272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-5_comp_dir.png
+  artifactKey: Guid(f9ef747f4e0c0fb46820541b774658b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-5_comp_dir.png using Guid(f9ef747f4e0c0fb46820541b774658b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db63b3bb217c932792a582348474cdec') in 0.046079 seconds 
+  Import took 0.056180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000611 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-0_comp_light.exr
+  artifactKey: Guid(f675ed440bcdff44b9e46df2c72b9ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-0_comp_light.exr using Guid(f675ed440bcdff44b9e46df2c72b9ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1b56e419e75346873020190ac74ea9') in 0.050997 seconds 
+  Import took 0.060692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000661 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/NavMesh.asset
+  artifactKey: Guid(723f4a2c9987baf499881de3faf62749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/NavMesh.asset using Guid(723f4a2c9987baf499881de3faf62749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea2e4290c793facade29a563932c2ce') in 0.021057 seconds 
+  Import took 0.046571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000817 seconds.
+  path: Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-1_comp_light.exr
+  artifactKey: Guid(5284e95cde7057f45aa97fd13e07f3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Main Scenes/Showcase/Lightmap-1_comp_light.exr using Guid(5284e95cde7057f45aa97fd13e07f3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6f196f80cf9a7c8950d0f0ffb4ad08') in 0.036355 seconds 
+  Import took 0.044940 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011512 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.156 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2157ms)
+		BeginReloadAssembly (239ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (1774ms)
+			LoadAssemblies (218ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (623ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (654ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (151ms)
+				ProcessInitializeOnLoadAttributes (456ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2170 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.7 MB.
+System memory in use after: 102.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2686.
+Total: 5.708600 ms (FindLiveObjects: 0.498000 ms CreateObjectMapping: 0.302700 ms MarkObjects: 4.858000 ms  DeleteObjects: 0.046700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 25.024362 seconds.
+  path: Assets/Data
+  artifactKey: Guid(708cce2766a59344db0a9c124d85c3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data using Guid(708cce2766a59344db0a9c124d85c3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6150976b25090624de3bf7889ce872') in 0.027976 seconds 
+  Import took 0.049809 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
