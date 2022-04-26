@@ -13,27 +13,27 @@ MonoBehaviour:
   m_Name: Showcase Objectives
   m_EditorClassIdentifier: 
   Objectives:
-  - shortName: Example 01
+  - shortName: 'First Goal: '
     eventID: 
-    objectiveText: Go to Objective Complete Trigger
+    objectiveText: 'Search the area. '
     completeCount: 0
     objectiveID: 0
     localeKey: Obj.Showcase.Example01
-  - shortName: Example 02
+  - shortName: 'Second Goal: '
     eventID: 
-    objectiveText: Go to second Objective Complete Trigger
+    objectiveText: 'Find in the area a weapon to use. '
     completeCount: 0
     objectiveID: 1
     localeKey: Obj.Showcase.Example02
-  - shortName: Example 03
+  - shortName: 'Third Goal:'
     eventID: FenceDoorFirst
     objectiveText: Collect three apples to open door {0}/{1}
     completeCount: 3
     objectiveID: 2
     localeKey: Obj.Showcase.Example03
-  - shortName: Example 04
+  - shortName: 'Fourth Goal:'
     eventID: 
-    objectiveText: Go to next showcase zone
+    objectiveText: 'Go to next zone and search the area.  '
     completeCount: 0
     objectiveID: 3
     localeKey: Obj.Showcase.Example04
