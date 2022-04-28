@@ -17,6 +17,7 @@ namespace HFPS.Systems
         public bool isSpawned;
 
         private Transform spawnPoint;
+        public GameObject setActiveOtherGO;
 
         private void Awake()
         {
@@ -50,6 +51,7 @@ namespace HFPS.Systems
             if (!isSpawned && SpawnObjects.Length > 0 && spawnType == SpawnType.ByEvent)
             {
                 InstantiateSaveable();
+                setActiveOtherGO.SetActive(true);
             }
         }
 
