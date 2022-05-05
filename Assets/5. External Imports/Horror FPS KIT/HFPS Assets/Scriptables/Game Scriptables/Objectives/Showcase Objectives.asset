@@ -37,15 +37,15 @@ MonoBehaviour:
     completeCount: 0
     objectiveID: 3
     localeKey: Obj.Showcase.Example04
-  - shortName: Example 05
+  - shortName: 'Fifth Goal: '
     eventID: FenceDoorArena
-    objectiveText: Kill the guard zombie to open the Arena
+    objectiveText: 'Find the button to spawn the escape photo.  '
     completeCount: 0
     objectiveID: 4
     localeKey: Obj.Showcase.Example05
-  - shortName: Example 06
+  - shortName: 'Sixth Goal: '
     eventID: 
-    objectiveText: Kill the Arena Zombie
+    objectiveText: 'Search in the next zone something to drain the water. '
     completeCount: 0
     objectiveID: 5
     localeKey: Obj.Showcase.Example06

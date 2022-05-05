@@ -6,29 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/5. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/MainMenu.unity
-    guid: 9aa959960fff2014d9064643094534f3
-  - enabled: 1
-    path: Assets/5. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/SceneLoader.unity
-    guid: e92d1d4c15fc07a42b93b5e226dab4fd
-  - enabled: 1
-    path: Assets/1. Scenes/Strangers Path One.unity
+    path: Assets/1. Projects/1. Stranger's Path Scenes/Strangers Path One/1. Scenes/Strangers
+      Path One.unity
     guid: 18578a8c82c5c9248a506d55236cae4c
-  - enabled: 1
-    path: Assets/1. Scenes/Strangers Path Two.unity
-    guid: 9c1e1ef0d125341449211600dac25344
-  - enabled: 1
-    path: Assets/5. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Example
-      Scenes/Basic/EmptyScenePlayer.unity
-    guid: f68992d4b7e8bc74f9e180eaf57e63d6
-  - enabled: 1
-    path: Assets/5. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Example
-      Scenes/ScenePresistency/SavingScene01.unity
-    guid: 161be0ba3384e16488c355d809e2d394
-  - enabled: 1
-    path: Assets/5. External Imports/Horror FPS KIT/HFPS Assets/Content/Scenes/Example
-      Scenes/ScenePresistency/SavingScene02.unity
-    guid: a7bfff2b296037b4eba8867601e57531
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 879dc59d21f31734c95279731f769bef,
       type: 2}
